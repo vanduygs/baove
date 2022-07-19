@@ -11440,3 +11440,22 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	padding-left: 25px;
 	padding-right: 25px;
 }
+/* ============================ */
+.container.py-5{
+	margin-bottom: 70px;
+}
+
+body > div.body.p-relative.bottom-1 > div > div:nth-child(7) > div > div.col-lg-6.order-1.order-lg-2.p-0.p-relative.z-index-2 > section > div{
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+footer .container.py-5{
+	margin-bottom: 0;
+}
+
+/* Change size logo and center */
+.header-logo .text-decoration-none img {
+	margin-top: 15px;
+	
+}

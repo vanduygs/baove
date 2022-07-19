@@ -86,7 +86,7 @@
             }
           }else{
             // Revert back to world view
-            $gmap.setCenter(new google.maps.LatLng(34.885931, 9.84375));
+            $gmap.setCenter(new google.maps.LatLng(10.811109857339046, 106.57054326419606));
           }
         }
       }
