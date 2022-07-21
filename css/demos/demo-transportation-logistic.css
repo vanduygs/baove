@@ -14,12 +14,22 @@ p {
 		color: #999;
 }
 
-.custom-heading-1 {
+.container.py-5 .col .custom-heading-1 {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #099fdc;
+	white-space: nowrap;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.border-0.p-relative .custom-heading-1 {
 		-webkit-text-fill-color: transparent;
 		-webkit-text-stroke-width: 0.5px;
-		-webkit-text-stroke-color: #CCC;
+		-webkit-text-stroke-color: #ccc;
 		white-space: nowrap;
-		font-size: 80px;
+		font-size: 70px;
 		font-weight: bold;
 		letter-spacing: 1px;
 }
@@ -87,6 +97,7 @@ p {
 .section-intro {
 		background: url(../../img/demos/transportation-logistic/generic/generic-1.png) no-repeat 12% 100%;
 		min-height: 400px;
+		
 }
 
 .custom-carousel-1-wrapper {
