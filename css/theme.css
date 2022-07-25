@@ -11962,3 +11962,12 @@ footer .container.py-5 {
 .container-fluid {
 	margin-top: 50px;
 }
+
+/* home page */
+body > div > div > section:nth-child(4) > div > div.row.pb-5 {
+	margin: 0 ;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
