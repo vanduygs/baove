@@ -11870,6 +11870,7 @@ body > div > div > div:nth-child(6) > div > div.col-lg-6.order-1.order-lg-2.p-0.
 
 footer .container.py-5 {
 	margin-bottom: 0;
+	padding: 0 !important;
 }
 
 /* Change size logo and center */
@@ -11954,4 +11955,10 @@ footer .container.py-5 {
 
 	}
 
+}
+
+
+/* Contact area */
+.container-fluid {
+	margin-top: 50px;
 }
