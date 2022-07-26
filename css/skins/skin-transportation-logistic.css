@@ -7387,6 +7387,7 @@ ul.comments .comment-block,
 .product-thumb-info,
 .accordion.accordion-modern-2 > .card .card-header a {
 	border-radius: 0 !important;
+	padding: 4px;
 }
 
 @media (min-width: 992px) {
