@@ -12180,3 +12180,9 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 	padding-right: 30px;
 }
 }
+
+ul.nav .nav-item a.editCol {
+	padding: 18px 0 !important;
+	border-bottom: 1px solid #eee !important;
+	border-top: 1px solid #eee !important;
+}

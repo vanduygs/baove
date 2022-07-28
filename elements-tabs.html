@@ -48,6 +48,19 @@
 
 	<!-- Head Libs -->
 	<script src="vendor/modernizr/modernizr.min.js"></script>
+	<style>
+		@media screen and (max-width:991px) {
+			#examples .row1 {
+				display: none;
+			}
+		}
+
+		@media screen and (min-width:991px) {
+			#examples .row2 {
+				display: none;
+			}
+		}
+	</style>
 
 </head>
 
@@ -55,251 +68,270 @@
 
 	<div class="body">
 		<header id="header" class="header-effect-reveal"
-		data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'reveal', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 200, 'stickySetTop': '-44px'}">
-		<div class="header-body border-0 border-bottom-light">
-			<div class="header-container container-fluid p-0">
-				<div class="header-row">
-					<div class="header-column header-column-border-right flex-grow-0 d-sticky-header-active-none">
-						<div class="header-row">
-							<div class="header-logo p-relative top-1 m-0">
-								<a href="index.html" class="text-decoration-none">
-									<img src="baove/hlbanner250x60.png" class="img-fluid mb-4" width="320">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="header-column">
-						<div class="border-bottom-light w-100">
-							<div class="hstack gap-4 px-4 py-2 font-weight-semi-bold d-none d-lg-flex">
-								<div class="d-none d-lg-inline-block ps-1"><a
-										class="text-color-default text-color-hover-primary text-2"
-										href="tel:0931090058">0931.090.058</a></div>
-								<div class="vr d-lg-inline-block opacity-2 d-none d-xl-inline-block"></div>
-								<div class="d-none d-xl-inline-block"><a
-										class="text-color-default text-color-hover-primary text-2"
-										href="mailto:baovehoanglong.info@gmail.com">baovehoanglong.info@gmail.com</a>
-								</div>
-								<div class="vr opacity-2 d-none d-xl-inline-block"></div>
-								<div class="d-none d-xl-inline-block"><span
-										class="text-color-default text-color-hover-primary text-2">Thứ 2 — Chủ Nhật:
-										9AM — 6PM</span></div>
-								<div class="ms-auto d-none d-lg-inline-block">
-									<ul class="nav nav-pills">
-										<li class="nav-item dropdown">
-											<a class="nav-link text-2 p-0 text-color-default" href="#" role="button"
-												id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true"
-												aria-expanded="false">
-												english
-												<i class="fas fa-angle-down"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-end text-2"
-												aria-labelledby="dropdownLanguage">
-												<a class="dropdown-item text-color-default" href="#">English</a>
-												<a class="dropdown-item text-color-default" href="#">Español</a>
-												<a class="dropdown-item text-color-default" href="#">Française</a>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="vr opacity-2 d-none d-lg-inline-block"></div>
-								<div class="d-none d-lg-inline-block">
-									<ul class="nav nav-pills me-1">
-										<li class="nav-item pe-2 mx-1">
-											<a href="http://www.facebook.com/" target="_blank" title="Facebook"
-												class="text-color-default text-color-hover-primary text-2"><i
-													class="fab fa-facebook-f"></i></a>
-										</li>
-										<li class="nav-item px-2 mx-1">
-											<a href="http://www.twitter.com/" target="_blank" title="Twitter"
-												class="text-color-default text-color-hover-primary text-2"><i
-													class="fab fa-twitter"></i></a>
-										</li>
-										<li class="nav-item px-2 mx-1">
-											<a href="http://www.instagram.com/" target="_blank" title="Instagram"
-												class="text-color-default text-color-hover-primary text-2"><i
-													class="fab fa-instagram"></i></a>
-										</li>
-										<li class="nav-item px-2 mx-1 me-0 pe-0">
-											<a href="http://www.linkedin.com/" target="_blank" title="Linkedin"
-												class="text-color-default text-color-hover-primary text-2"><i
-													class="fab fa-linkedin-in"></i></a>
-										</li>
-									</ul>
+			data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'reveal', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 200, 'stickySetTop': '-44px'}">
+			<div class="header-body border-0 border-bottom-light">
+				<div class="header-container container-fluid p-0">
+					<div class="header-row">
+						<div class="header-column header-column-border-right flex-grow-0 d-sticky-header-active-none">
+							<div class="header-row">
+								<div class="header-logo p-relative top-1 m-0">
+									<a href="index.html" class="text-decoration-none">
+										<img src="baove/hlbanner250x60.png" class="img-fluid mb-4" width="320">
+									</a>
 								</div>
 							</div>
 						</div>
-						<div class="header-row h-100">
-							<div class="hstack h-100 w-100">
-								<div class="h-100 w-100 w-xl-auto">
-									<div
-										class="header-nav header-nav-links h-100 justify-content-end justify-content-lg-start me-4 me-lg-0 ms-lg-3">
-										<div
-											class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-text-capitalize header-nav-main-text-size-4 header-nav-main-arrows header-nav-main-full-width-mega-menu header-nav-main-mega-menu-bg-hover header-nav-main-effect-5">
-											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
-													<li class="dropdown">
-														<a href="index.html" class="nav-link active">
-															Trang chủ
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="gioi-thieu.html">
-															Giới thiệu
-														</a>
-													</li>
-													<li class="dropdown">
-														<a class="nav-link dropdown-toggle" href="dich-vu.html">
-															Dịch vụ
-														</a>
-														<ul class="dropdown-menu border-light mt-n1">
-															<li>
-																<a href="dich-vu-bao-ve-toa-nha.html"
-																	class="dropdown-item">Bảo vệ Tòa nhà</a>
-															</li>
-															<li>
-																<a href="dich-vu-bao-ve-benh-vien.html"
-																	class="dropdown-item">Bảo vệ Bệnh Viện</a>
-															</li>
-															<li>
-																<a href="dich-vu-bao-ve-cong-trinh-thi-cong.html"
-																	class="dropdown-item">Bảo vệ Công Trình Thi
-																	Công</a>
-															</li>
-															<li>
-																<a href="dich-vu-bao-ve-khu-dan-cu.html"
-																	class="dropdown-item">Bảo vệ Khu dân cư</a>
-															</li>
-															<li>
-																<a href="dich-vu-bao-ve-yeu-nhan.html"
-																	class="dropdown-item">Bảo vệ Yếu Nhân</a>
-															</li>
-															<li>
-																<a href="dich-vu-bao-ve-su-kien-le-hoi.html"
-																	class="dropdown-item">Bảo vệ sự kiện lễ hội</a>
-															</li>
-														</ul>
-													</li>
-
-
-
-													<li>
-														<a class="nav-link" href="tin-tuc.html">
-															Tin tức
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="lien-he.html">
-															Liên hệ
-														</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
-											data-bs-target=".header-nav-main nav">
-											<i class="fas fa-bars"></i>
-										</button>
+						<div class="header-column">
+							<div class="border-bottom-light w-100">
+								<div class="hstack gap-4 px-4 py-2 font-weight-semi-bold d-none d-lg-flex">
+									<div class="d-none d-lg-inline-block ps-1"><a
+											class="text-color-default text-color-hover-primary text-2"
+											href="tel:0931090058">0931.090.058</a></div>
+									<div class="vr d-lg-inline-block opacity-2 d-none d-xl-inline-block"></div>
+									<div class="d-none d-xl-inline-block"><a
+											class="text-color-default text-color-hover-primary text-2"
+											href="mailto:baovehoanglong.info@gmail.com">baovehoanglong.info@gmail.com</a>
+									</div>
+									<div class="vr opacity-2 d-none d-xl-inline-block"></div>
+									<div class="d-none d-xl-inline-block"><span
+											class="text-color-default text-color-hover-primary text-2">Thứ 2 — Chủ Nhật:
+											9AM — 6PM</span></div>
+									<div class="ms-auto d-none d-lg-inline-block">
+										<ul class="nav nav-pills">
+											<li class="nav-item dropdown">
+												<a class="nav-link text-2 p-0 text-color-default" href="#" role="button"
+													id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true"
+													aria-expanded="false">
+													english
+													<i class="fas fa-angle-down"></i>
+												</a>
+												<div class="dropdown-menu dropdown-menu-end text-2"
+													aria-labelledby="dropdownLanguage">
+													<a class="dropdown-item text-color-default" href="#">English</a>
+													<a class="dropdown-item text-color-default" href="#">Español</a>
+													<a class="dropdown-item text-color-default" href="#">Française</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="vr opacity-2 d-none d-lg-inline-block"></div>
+									<div class="d-none d-lg-inline-block">
+										<ul class="nav nav-pills me-1">
+											<li class="nav-item pe-2 mx-1">
+												<a href="http://www.facebook.com/" target="_blank" title="Facebook"
+													class="text-color-default text-color-hover-primary text-2"><i
+														class="fab fa-facebook-f"></i></a>
+											</li>
+											<li class="nav-item px-2 mx-1">
+												<a href="http://www.twitter.com/" target="_blank" title="Twitter"
+													class="text-color-default text-color-hover-primary text-2"><i
+														class="fab fa-twitter"></i></a>
+											</li>
+											<li class="nav-item px-2 mx-1">
+												<a href="http://www.instagram.com/" target="_blank" title="Instagram"
+													class="text-color-default text-color-hover-primary text-2"><i
+														class="fab fa-instagram"></i></a>
+											</li>
+											<li class="nav-item px-2 mx-1 me-0 pe-0">
+												<a href="http://www.linkedin.com/" target="_blank" title="Linkedin"
+													class="text-color-default text-color-hover-primary text-2"><i
+														class="fab fa-linkedin-in"></i></a>
+											</li>
+										</ul>
 									</div>
 								</div>
-								<div class="vr opacity-2 ms-auto d-none d-xl-inline-block"></div>
-								<div class="px-4 d-none d-xxl-inline-block ws-nowrap">
-									<a href="tel:02837650036" class="btn border-0 px-4 py-2 line-height-9 btn-tertiary me-2">Liên
-										hệ</a>
-									<a href="tel:0931090058" class="btn border-0 px-4 py-2 line-height-9 btn-primary">Hotline</a>
+							</div>
+							<div class="header-row h-100">
+								<div class="hstack h-100 w-100">
+									<div class="h-100 w-100 w-xl-auto">
+										<div
+											class="header-nav header-nav-links h-100 justify-content-end justify-content-lg-start me-4 me-lg-0 ms-lg-3">
+											<div
+												class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-text-capitalize header-nav-main-text-size-4 header-nav-main-arrows header-nav-main-full-width-mega-menu header-nav-main-mega-menu-bg-hover header-nav-main-effect-5">
+												<nav class="collapse">
+													<ul class="nav nav-pills" id="mainNav">
+														<li class="dropdown">
+															<a href="index.html" class="nav-link active">
+																Trang chủ
+															</a>
+														</li>
+														<li>
+															<a class="nav-link" href="gioi-thieu.html">
+																Giới thiệu
+															</a>
+														</li>
+														<li class="dropdown">
+															<a class="nav-link dropdown-toggle" href="dich-vu.html">
+																Dịch vụ
+															</a>
+															<ul class="dropdown-menu border-light mt-n1">
+																<li>
+																	<a href="dich-vu-bao-ve-toa-nha.html"
+																		class="dropdown-item">Bảo vệ Tòa nhà</a>
+																</li>
+																<li>
+																	<a href="dich-vu-bao-ve-benh-vien.html"
+																		class="dropdown-item">Bảo vệ Bệnh Viện</a>
+																</li>
+																<li>
+																	<a href="dich-vu-bao-ve-cong-trinh-thi-cong.html"
+																		class="dropdown-item">Bảo vệ Công Trình Thi
+																		Công</a>
+																</li>
+																<li>
+																	<a href="dich-vu-bao-ve-khu-dan-cu.html"
+																		class="dropdown-item">Bảo vệ Khu dân cư</a>
+																</li>
+																<li>
+																	<a href="dich-vu-bao-ve-yeu-nhan.html"
+																		class="dropdown-item">Bảo vệ Yếu Nhân</a>
+																</li>
+																<li>
+																	<a href="dich-vu-bao-ve-su-kien-le-hoi.html"
+																		class="dropdown-item">Bảo vệ sự kiện lễ hội</a>
+																</li>
+															</ul>
+														</li>
+
+
+
+														<li>
+															<a class="nav-link" href="hsnl.html">
+																Hồ Sơ Năng Lực
+															</a>
+														</li>
+<li>
+															<a class="nav-link" href="tin-tuc.html">
+																Tin tức
+															</a>
+														</li>
+														<li>
+															<a class="nav-link" href="lien-he.html">
+																Liên hệ
+															</a>
+														</li>
+													</ul>
+												</nav>
+											</div>
+											<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
+												data-bs-target=".header-nav-main nav">
+												<i class="fas fa-bars"></i>
+											</button>
+										</div>
+									</div>
+									<div class="vr opacity-2 ms-auto d-none d-xl-inline-block"></div>
+									<div class="px-4 d-none d-xxl-inline-block ws-nowrap">
+										<a href="tel:02837650036"
+											class="btn border-0 px-4 py-2 line-height-9 btn-tertiary me-2">Liên
+											hệ</a>
+										<a href="tel:0931090058"
+											class="btn border-0 px-4 py-2 line-height-9 btn-primary">Hotline</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-	</header>
+		</header>
 
 		<div role="main" class="main">
-
-		
 			<div id="examples" class="container py-2">
 				<!-- show hsnl -->
 				<div class="row mt-5">
 					<div class="col">
-						<h4 class="mb-4">HỒ SƠ NĂNG LỰC HOÀNG LONG</h4>
-					
-						<div class="row">
+
+						<div class="row row1">
 							<div class="col-lg-4">
+								<div>
+									<h4 class="mb-4">HỒ SƠ NĂNG LỰC</h4>
+								</div>
 								<div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
 									<ul class="nav nav-tabs col-sm-3">
 										<li class="nav-item">
-											<a class="nav-link active" href="#tabsNavigationVertSimple1"
+											<a class="nav-link active editCol" href="#tabsNavigationVertSimple1"
 												data-bs-toggle="tab">GIẤY PHÉP KINH DOANH</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple2"
-												data-bs-toggle="tab">GIẤY CHỨNG NHẬN AN NINH TRẬT TỰ</a>
+												data-bs-toggle="tab">GIẤY
+												CHỨNG NHẬN AN NINH TRẬT TỰ</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple3"
-												data-bs-toggle="tab">GIẤY PHÉP SỬ DỤNG TẦN SỐ VÀ VÔ TUYẾN ĐIỆN</a>
+												data-bs-toggle="tab">GIẤY
+												PHÉP SỬ DỤNG VÔ TUYẾN ĐIỆN</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple4"
-												data-bs-toggle="tab">GIẤY ĐĂNG KÝ NHÃN HIỆU LOGO</a>
+												data-bs-toggle="tab">GIẤY
+												ĐĂNG KÝ NHÃN HIỆU LOGO</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple5"
-												data-bs-toggle="tab">GIẤY CHỨNG NHẬN ISO 9001 - 2015</a>
+												data-bs-toggle="tab">GIẤY
+												CHỨNG NHẬN ISO 9001 - 2015</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple6"
-												data-bs-toggle="tab">BẢO HIỂM TRÁCH NHIỆM</a>
+												data-bs-toggle="tab">BẢO
+												HIỂM TRÁCH NHIỆM</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple7"
-												data-bs-toggle="tab">CHỨNG NHẬN PHÒNG CHÁY CHỮA CHÁY</a>
+												data-bs-toggle="tab">CHỨNG
+												NHẬN PCCC</a>
 										</li>
 
 										<li class="nav-item">
-											<a class="nav-link" href="#tabsNavigationVertSimple8"
-												data-bs-toggle="tab">CHỨNG CHỈ NGHIỆP VỤ BẢO VỆ</a>
-										</li>	
+											<a class="nav-link editCol" href="#tabsNavigationVertSimple8"
+												data-bs-toggle="tab">CHỨNG
+												CHỈ NGHIỆP VỤ BẢO VỆ</a>
+										</li>
 									</ul>
 								</div>
-
-								<h4 class="mb-4">CHỨNG NHẬN & GIẢI THƯỞNG</h4>
+								<div>
+									<h4 class="mb-4">CHỨNG NHẬN & GIẢI THƯỞNG</h4>
+								</div>
 								<div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
 									<ul class="nav nav-tabs col-sm-3">
 										<li class="nav-item">
-											<a class="nav-link active" href="#tabsNavigationVertSimple9"
+											<a class="nav-link active editCol" href="#tabsNavigationVertSimple9"
 												data-bs-toggle="tab">TOP 10 THƯƠNG HIỆU DANH HIỆU 2020</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple10"
-												data-bs-toggle="tab">TOP 10 DỊCH VỤ BẢO VỆ 2020</a>
+												data-bs-toggle="tab">TOP
+												10 DỊCH VỤ BẢO VỆ 2020</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple11"
-												data-bs-toggle="tab">TOP 10 THƯƠNG HIỆU DẪN ĐẦU 2020</a>
+												data-bs-toggle="tab">TOP
+												10 THƯƠNG HIỆU DẪN ĐẦU 2020</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple12"
-												data-bs-toggle="tab">THƯƠNG HIỆU NHÃN HIỆU DANH TIẾNG 2020</a>
+												data-bs-toggle="tab">NHÃN
+												HIỆU DANH TIẾNG 2020</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#tabsNavigationVertSimple13"
-												data-bs-toggle="tab">TOP 10 THƯƠNG HIỆU HÀNG ĐẦU 2021</a>
+												data-bs-toggle="tab">TOP
+												10 THƯƠNG HIỆU HÀNG ĐẦU 2021</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#tabsNavigationVertSimple14"
-												data-bs-toggle="tab">TOP 10 DỊCH VỤ TIN DÙNG 2021</a>
+											<a class="nav-link editCol" href="#tabsNavigationVertSimple14"
+												data-bs-toggle="tab">TOP
+												10 DỊCH VỤ TIN DÙNG 2021</a>
 										</li>
 
 									</ul>
 								</div>
 							</div>
 
-
-
 							<div class="col-lg-8">
+
 								<div class="tab-pane tab-pane-navigation active" id="tabsNavigationVertSimple1">
 									<article class="post post-large blog-single-post border-0 m-0 p-0">
 										<div class="post-image ms-0">
@@ -443,64 +475,359 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<!-- end show HSNL -->
-				<div class="col-lg-6 mb-4 mb-lg-0">
-					<h4>HỒ SƠ NĂNG LỰC</h4>
+						<div class=" row2">
 
-					<div class="accordion" id="accordion1">
-						<div class="card card-default">
-							<div class="card-header" id="collapse1HeadingOne">
-								<h4 class="card-title m-0">
-									<a class="accordion-toggle" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="true" aria-controls="collapse1One">
-										GIẤY PHÉP KINH DOANH
-									</a>
-								</h4>
-							</div>
-							<div id="collapse1One" class="collapse show" aria-labelledby="collapse1HeadingOne">
-								<div class="card-body">
-									<article class="post post-large blog-single-post border-0 m-0 p-0">
-										<div class="post-image ms-0">
-											<img src="baove/Giay-phep-Kinh-Doanh-Hoang-Long-1.jpg"
-												class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-												alt="bảo vệ bệnh viện" width="100%" />
+							<!-- RESPONSIVE HSNL : -->
+							<div class="col-lg-6 mb-4 mb-lg-0">
+								<h4>HỒ SƠ NĂNG LỰC</h4>
+		
+								<div class="accordion" id="accordion1">
+		
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingOne">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1One" aria-expanded="true"
+													aria-controls="collapse1One">
+													GIẤY PHÉP KINH DOANH
+												</a>
+											</h4>
 										</div>
-										<div class="post-image ms-0">
-											<img src="baove/Giay-phep-Kinh-Doanh-Hoang-Long-2.jpg"
-												class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
-												alt="bảo vệ bệnh viện" width="100%" />
+										<div id="collapse1One" class="collapse show" aria-labelledby="collapse1HeadingOne">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Giay-phep-Kinh-Doanh-Hoang-Long-1.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+													<div class="post-image ms-0">
+														<img src="baove/Giay-phep-Kinh-Doanh-Hoang-Long-2.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
 										</div>
-
-									</article>
+									</div>
+		
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingTwo">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Two" aria-expanded="false"
+													aria-controls="collapse1Two">
+													GIẤY CHỨNG NHẬN AN NINH TRẬT TỰ
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Chung-nhan-ANTT-Hoang-Long.png"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+		
+											</div>
+										</div>
+									</div>
+		
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingThree">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Three" aria-expanded="false"
+													aria-controls="collapse1Three">
+													GIẤY PHÉP SỬ DỤNG VÔ TUYẾN ĐIỆN
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Giay-phep-vo-tuyen-Hoang-Long.png"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+									<!-- 4 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingFour">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Four" aria-expanded="false"
+													aria-controls="collapse1Four">
+													GIẤY ĐĂNG KÝ NHÃN HIỆU LOGO
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Four" class="collapse" aria-labelledby="collapse1HeadingFour">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Giay-dang-ky-nhan-hieu-bao-ve-Hoang-Long.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 5 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingFive">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Five" aria-expanded="false"
+													aria-controls="collapse1Five">
+													GIẤY CHỨNG NHẬN ISO 9001 - 2015
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Five" class="collapse" aria-labelledby="collapse1HeadingFive">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baovE/Chung-nhan-ISO-9001-2015.png"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 6 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingSix">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Six" aria-expanded="false"
+													aria-controls="collapse1Six">
+													BẢO HIỂM TRÁCH NHIỆM
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Six" class="collapse" aria-labelledby="collapse1HeadingSix">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Bao-hiem-trach-nhiem-hoang-long.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 7 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingSeven">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Seven" aria-expanded="false"
+													aria-controls="collapse1Seven">
+													CHỨNG NHẬN PCCC
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Seven" class="collapse" aria-labelledby="collapse1HeadingSeven">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Chung-chi-PCCC-Hoang-Long.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 8 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1HeadingEight">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse1Eight" aria-expanded="false"
+													aria-controls="collapse1Eight">
+													CHỨNG CHỈ NGHIỆP VỤ BẢO VỆ
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1Eight" class="collapse" aria-labelledby="collapse1HeadingEight">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/chung-chi-nghiep-vu-bao-ve.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
 								</div>
+		
 							</div>
-						</div>
-						<div class="card card-default">
-							<div class="card-header" id="collapse1HeadingTwo">
-								<h4 class="card-title m-0">
-									<a class="accordion-toggle" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
-										GIẤY CHỨNG NHẬN AN NINH TRẬT TỰ
-									</a>
-								</h4>
-							</div>
-							<div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo">
-								<div class="card-body">
-									<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-								</div>
-							</div>
-						</div>
-						<div class="card card-default">
-							<div class="card-header" id="collapse1HeadingThree">
-								<h4 class="card-title m-0">
-									<a class="accordion-toggle" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
-										GIẤY PHÉP SỬ DỤNG TẦN SỐ VÀ VÔ TUYẾN ĐIỆN
-									</a>
-								</h4>
-							</div>
-							<div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree">
-								<div class="card-body">
-									<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+		
+							<!-- RESPONSIVE CNGT : -->
+							<div class="col-lg-6 mb-4 mb-lg-0">
+								<h4>CHỨNG NHẬN & GIẢI THƯỞNG</h4>
+								<div class="accordion" id="accordion1">
+		
+									<!-- 9 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading09">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse109" aria-expanded="false"
+													aria-controls="collapse109">
+													TOP 10 THƯƠNG HIỆU DANH HIỆU 2020
+												</a>
+											</h4>
+										</div>
+										<div id="collapse109" class="collapse" aria-labelledby="collapse1Heading09">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Top-10-thuong-hieu-nhan-hieu-Viet-Nam.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 10 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading10">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse110" aria-expanded="false"
+													aria-controls="collapse110">
+													TOP 10 DỊCH VỤ BẢO VỆ 2020
+												</a>
+											</h4>
+										</div>
+										<div id="collapse110" class="collapse" aria-labelledby="collapse1Heading10">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Top-100-dv-bv-chat-luong-cao-2020.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 11 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading11">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse111" aria-expanded="false"
+													aria-controls="collapse111">
+													TOP 10 THƯƠNG HIỆU DẪN ĐẦU 2020
+												</a>
+											</h4>
+										</div>
+										<div id="collapse111" class="collapse" aria-labelledby="collapse1Heading11">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/Top-10-Thuong-hieu-dan-dau-2020.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 12 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading12">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse112" aria-expanded="false"
+													aria-controls="collapse112">
+													NHÃN HIỆU DANH TIẾNG 2020
+												</a>
+											</h4>
+										</div>
+										<div id="collapse112" class="collapse" aria-labelledby="collapse1Heading12">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/thuong-hieu-nhan-hieu-danh-tieng.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 13 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading13">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse113" aria-expanded="false"
+													aria-controls="collapse113">
+													TOP 10 THƯƠNG HIỆU HÀNG ĐẦU 2021
+												</a>
+											</h4>
+										</div>
+										<div id="collapse113" class="collapse" aria-labelledby="collapse1Heading13">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/chung-nhan-thuong-hieu-hang-dau.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+		
+									<!-- 14 -->
+									<div class="card card-default">
+										<div class="card-header" id="collapse1Heading14">
+											<h4 class="card-title m-0">
+												<a class="accordion-toggle" data-bs-toggle="collapse"
+													data-bs-target="#collapse114" aria-expanded="false"
+													aria-controls="collapse114">
+													TOP 10 DỊCH VỤ TIN DÙNG 2021
+												</a>
+											</h4>
+										</div>
+										<div id="collapse114" class="collapse" aria-labelledby="collapse1Heading14">
+											<div class="card-body">
+												<article class="post post-large blog-single-post border-0 m-0 p-0">
+													<div class="post-image ms-0">
+														<img src="baove/top-10-thuong-hieu-san-pham-tin-dung-2021.jpg"
+															class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
+															alt="bảo vệ bệnh viện" width="100%" />
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -508,59 +835,59 @@
 				</div>
 			</div>
 
-
-			<footer id="footer"
-				class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
-				<div class="container text-center my-3 py-5">
-					<a href="index.html">
-						<img src="img/lazy.png" data-src="img/landing/logo.png" width="102" height="45"
-							class="mb-4 appear-animation lazyload" alt="Porto" data-appear-animation="fadeIn"
-							data-appear-animation-delay="300">
-					</a>
-					<p class="text-4 mb-4">Porto is exclusively available on themeforest.net by <a
-							href="https://themeforest.net/user/okler/" class="text-color-light"
-							target="_blank">Okler.</a></p>
-					<ul class="social-icons social-icons-big social-icons-dark-2">
-						<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
-								title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-						<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-								title="Twitter"><i class="fab fa-twitter"></i></a></li>
-						<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
-								title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-					</ul>
-				</div>
-				<div class="copyright bg-dark py-4">
-					<div class="container text-center py-2">
-						<p class="mb-0 text-2">Copyright 2013 - 2022 - Porto - All Rights Reserved</p>
-					</div>
-				</div>
-			</footer>
 		</div>
 
-		<!-- Vendor -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
-		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="vendor/lazysizes/lazysizes.min.js"></script>
-		<script src="vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="vendor/vide/jquery.vide.min.js"></script>
-		<script src="vendor/vivus/vivus.min.js"></script>
+		<footer id="footer"
+			class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
+			<div class="container text-center my-3 py-5">
+				<a href="index.html">
+					<img src="img/lazy.png" data-src="img/landing/logo.png" width="102" height="45"
+						class="mb-4 appear-animation lazyload" alt="Porto" data-appear-animation="fadeIn"
+						data-appear-animation-delay="300">
+				</a>
+				<p class="text-4 mb-4">Porto is exclusively available on themeforest.net by <a
+						href="https://themeforest.net/user/okler/" class="text-color-light" target="_blank">Okler.</a>
+				</p>
+				<ul class="social-icons social-icons-big social-icons-dark-2">
+					<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+							title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
+							title="Twitter"><i class="fab fa-twitter"></i></a></li>
+					<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
+							title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+			<div class="copyright bg-dark py-4">
+				<div class="container text-center py-2">
+					<p class="mb-0 text-2">Copyright 2013 - 2022 - Porto - All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Vendor -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+	<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+	<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+	<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+	<script src="vendor/lazysizes/lazysizes.min.js"></script>
+	<script src="vendor/isotope/jquery.isotope.min.js"></script>
+	<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="vendor/vide/jquery.vide.min.js"></script>
+	<script src="vendor/vivus/vivus.min.js"></script>
 
-		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
+	<!-- Theme Base, Components and Settings -->
+	<script src="js/theme.js"></script>
 
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
+	<!-- Theme Custom -->
+	<script src="js/custom.js"></script>
 
-		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+	<!-- Theme Initialization Files -->
+	<script src="js/theme.init.js"></script>
 
 </body>
 

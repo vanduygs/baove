@@ -9075,8 +9075,16 @@ i.pi.pi-close:after {
 
 .img-thumbnail.img-thumbnail-no-borders {
 	border: none;
-	padding: 0 50px;
+	padding: 0;
+	
+	/* margin-left: 70px; */
 }
+
+#examples {
+	max-width: 1340px;
+}
+
+
 
 /* Image Gallery */
 ul.image-gallery {
