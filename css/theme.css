@@ -12164,3 +12164,9 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 		display: none;
 	}
 }
+
+
+.dropdown-item, .dropdown-menu {
+	text-transform: uppercase !important;
+	
+}
