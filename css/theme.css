@@ -12170,3 +12170,13 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 	text-transform: uppercase !important;
 	
 }
+
+/* CSS */
+/* Mục Hồ Sơ Năng Lực */
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+	padding-right: 30px;
+}
+}

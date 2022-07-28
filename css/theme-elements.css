@@ -9075,7 +9075,7 @@ i.pi.pi-close:after {
 
 .img-thumbnail.img-thumbnail-no-borders {
 	border: none;
-	padding: 0;
+	padding: 0 50px;
 }
 
 /* Image Gallery */
