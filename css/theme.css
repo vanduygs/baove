@@ -12249,7 +12249,16 @@ h3.font-weight-semibold {
 		width: 100%;
 	}
 }
+@media screen and (max-width : 720px) {
+.card .card-body.p-5 {
+	padding: 1rem !important;
+	height: 26vh !important;
+}
 
+.ps-4 { 
+	font-size: 1.1rem ;
+
+}
 /* index : height for hsnl */
 .thumb-info.thumb-info-swap-content {
 	height: auto;
