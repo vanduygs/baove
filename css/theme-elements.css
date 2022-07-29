@@ -3671,8 +3671,8 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .owl-carousel.stage-margin .owl-stage-outer {
-	margin-left: 40px !important;
-	margin-right: 40px !important;
+	/* margin-left: 40px !important;
+	margin-right: 40px !important; */
 }
 
 .owl-carousel.stage-margin .owl-stage-outer .owl-stage {

@@ -11863,7 +11863,8 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 .container.py-5 .col .custom-heading-1 {
 	text-align: center;
 }
-body > div > div > div:nth-child(6) > div > div.col-lg-6.order-1.order-lg-2.p-0.p-relative.z-index-2 > section > div{
+
+body>div>div>div:nth-child(6)>div>div.col-lg-6.order-1.order-lg-2.p-0.p-relative.z-index-2>section>div {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -11914,7 +11915,7 @@ footer .container.py-5 {
 	.row .col-lg-6.mb-4 {
 		float: left;
 		width: 100%;
-		padding: 10px;
+		padding: 0px;
 		height: 200px;
 	}
 
@@ -11944,7 +11945,7 @@ footer .container.py-5 {
 	.row .col-4.mb-4 {
 		float: left;
 		width: 50%;
-		
+
 	}
 }
 
@@ -11964,12 +11965,12 @@ footer .container.py-5 {
 }
 
 /* home page */
-body > div > div > section:nth-child(4) > div > div.row.pb-5 {
-	margin: 0 ;
+body>div>div>section:nth-child(4)>div>div.row.pb-5 {
+	margin: 0;
 }
 
 .row {
-    --bs-gutter-x: 0rem !important;
+	--bs-gutter-x: 0rem !important;
 }
 
 
@@ -12110,10 +12111,12 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 		-webkit-transform: rotate(0) scale(0.5) skew(1deg);
 		-webkit-opacity: 0.1;
 	}
+
 	30% {
 		-webkit-transform: rotate(0) scale(0.7) skew(1deg);
 		-webkit-opacity: 0.5;
 	}
+
 	100% {
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 		-webkit-opacity: 0.1;
@@ -12125,10 +12128,12 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 		-webkit-transform: rotate(0) scale(0.7) skew(1deg);
 		opacity: 0.6;
 	}
+
 	50% {
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 		opacity: 0.6;
 	}
+
 	100% {
 		-webkit-transform: rotate(0) scale(0.7) skew(1deg);
 		opacity: 0.6;
@@ -12139,21 +12144,27 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 	0% {
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 	}
+
 	10% {
 		-webkit-transform: rotate(-25deg) scale(1) skew(1deg);
 	}
+
 	20% {
 		-webkit-transform: rotate(25deg) scale(1) skew(1deg);
 	}
+
 	30% {
 		-webkit-transform: rotate(-25deg) scale(1) skew(1deg);
 	}
+
 	40% {
 		-webkit-transform: rotate(25deg) scale(1) skew(1deg);
 	}
+
 	50% {
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 	}
+
 	100% {
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 	}
@@ -12166,19 +12177,20 @@ body > div > div > section:nth-child(4) > div > div.row.pb-5 {
 }
 
 
-.dropdown-item, .dropdown-menu {
+.dropdown-item,
+.dropdown-menu {
 	text-transform: uppercase !important;
-	
+
 }
 
 /* CSS */
 /* Mục Hồ Sơ Năng Lực */
-@media (min-width: 992px){
-.col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-	padding-right: 30px;
-}
+@media (min-width: 992px) {
+	.col-lg-4 {
+		flex: 0 0 auto;
+		width: 33.33333333%;
+		padding-right: 0px;
+	}
 }
 
 ul.nav .nav-item a.editCol {
@@ -12196,8 +12208,54 @@ h4.mb-0.mt-1 {
 }
 
 span.d-lg-inline-block,
-h3.font-weight-semibold
-{
+h3.font-weight-semibold {
 	color: #09b9ec;
 	font-size: 30px;
+}
+
+/* Padding -left - footer */
+.row.pt-5 {
+	padding: 0 15px !important;
+	padding-top: 3rem!important;
+}
+
+.px-3.py-5 {
+	padding: 0 !important;
+}
+
+.py-5.ms-auto {
+	padding: 0 !important;
+}
+
+.row.justify-content-between.pt-5 {
+	padding: 0 !important;
+}
+
+.text-capitalize.mb-2 {
+	line-height: 32px;
+}
+
+.col.mt-4.mb-4.pb-4 {
+	margin: 0 !important;
+}
+
+/* buuton send footer */
+#newsletterForm > div > button {
+	padding: 0 20px;
+}
+/* responsive Maps - page index */
+@media screen and (max-width : 987px) {
+	center>div>iframe {
+		width: 100%;
+	}
+}
+
+/* index : height for hsnl */
+.thumb-info.thumb-info-swap-content {
+	height: auto;
+}
+
+/* Radius for img footer */
+.owl-stage-outer .owl-stage .owl-item p.text-4 img  {
+	border-radius: 10px;
 }
