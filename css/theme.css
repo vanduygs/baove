@@ -20,7 +20,7 @@ body {
 	background-color: #FFF;
 	color: #777;
 	font-family: "Poppins", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 26px;
 	margin: 0;
 }
@@ -11960,7 +11960,7 @@ footer .container.py-5 {
 
 /* Contact area */
 .container-fluid {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 
 /* home page */
@@ -12185,4 +12185,19 @@ ul.nav .nav-item a.editCol {
 	padding: 18px 0 !important;
 	border-bottom: 1px solid #eee !important;
 	border-top: 1px solid #eee !important;
+}
+
+
+h4.mb-0.mt-1 {
+	font-size: 34px;
+	color: #09b9ec;
+	padding-bottom: 15px;
+	font-weight: 400 !important;
+}
+
+span.d-lg-inline-block,
+h3.font-weight-semibold
+{
+	color: #09b9ec;
+	font-size: 30px;
 }
